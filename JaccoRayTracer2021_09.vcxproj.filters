@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="aabb.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="stblib.cpp" />
+    <ClCompile Include="jobsys.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="round_box.cpp" />
+    <ClCompile Include="sphere4.cpp" />
+    <ClCompile Include="sphere.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="ellipsoid.h" />
+    <ClInclude Include="hittable.h" />
+    <ClInclude Include="hittable_list.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="ray.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="aabb.h" />
+    <ClInclude Include="bvh.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="perlin.h" />
+    <ClInclude Include="stblib.h" />
+    <ClInclude Include="jobsys.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="round_box.h" />
+    <ClInclude Include="sphere4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
